@@ -4,7 +4,7 @@ import { TwitterFollowCard } from './TwitterFollowCard';
 export const App = () => {
     const formatUserName = (userName) => `@${userName}`;
 
-    const [name, setName] = useState('juanromo-dev')
+    const [name, setName] = useState('juanrom-dev')
 
     return (               // Es lo mismo que usar <React.Fragment> (linea abajo)
         <section className='App'>                                                     

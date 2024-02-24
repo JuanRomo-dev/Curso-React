@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { App } from './App.jsx'
-import './index.css'
+import { App } from './Ejer1/App.jsx'
+import './Ejer1/index.css'
 
 /*const Button = ({text}) => {
   return (
