@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { App } from './Ejer1/App.jsx'
 import './Ejer1/index.css'
+import { App2 } from './Ejer2 - tic_tac_toe/App.jsx'
 
 /*const Button = ({text}) => {
   return (
@@ -16,5 +17,5 @@ import './Ejer1/index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  <App />
+  <App2 />
 )

@@ -1,0 +1,25 @@
+.board .game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.board {
+    color: white!important;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    font-size: 48px
+}
+
+.board h1 {
+    margin-bottom: 16px;
+}
+
